@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar bg-primary  navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Brand Name</a>
+            <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="navbarNavAltMarkup"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">About Us</a>
+                </div>
+            </div>
+            <form class="d-flex">
+                <input type="search" class="form-control me-2" placeholder="Search" />
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- container -->
+    <div class="container">
+        <!-- heading -->
+        <h1>Bootstrap</h1>
+
+        <div class="card "style="width: 18rem;" >
+            <img src="photo.jpg" class="card-img-top"  alt="">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">It is an art to capture important things.</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+        </div>
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            distinctio ullam cumque, nisi minus dignissimos ipsam blanditiis,
+            tempore excepturi rerum, sit vero sequi! Necessitatibus aperiam quam
+            odio fugit blanditiis libero esse ullam animi at sed! Alias perferendis
+            quo maxime hic corrupti quod neque eligendi quisquam officiis voluptate
+            atque doloribus, quia ad voluptatibus necessitatibus molestias sint!
+            Sunt sed suscipit vel fugit. Repellat sit quia aspernatur et illum
+            deleniti facilis voluptas ex nesciunt optio minima asperiores magnam,
+            nobis quisquam, natus molestiae laborum harum. Excepturi quaerat
+            veritatis officiis? Temporibus optio alias doloremque aliquid est id
+            natus cumque, perferendis vel quas, rem culpa veritatis. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Debitis, ullam. Sapiente
+            reprehenderit fugiat quam doloremque vel possimus neque ducimus.
+            Voluptate aspernatur quis culpa magni dolores fuga laboriosam temporibus
+            alias, optio praesentium reprehenderit laborum asperiores consectetur
+            est hic! Doloremque eum eveniet, soluta odit culpa tempora illo
+            provident minima id quam illum recusandae, quibusdam veritatis? Non quas
+            eveniet deserunt dolor. Ab, soluta. Dignissimos aperiam repellendus
+            fuga. Rem velit perferendis dolorem sunt voluptatem, obcaecati quasi
+            quam harum repudiandae architecto eius hic maxime optio blanditiis,
+            ipsam in distinctio. Voluptates illo odio placeat velit neque cumque
+            aperiam ea aliquid quaerat. Eaque maiores, minima nisi numquam ratione
+            officia odit voluptate nihil! Dolore provident hic molestiae veritatis
+            inventore eius dolorum, ab unde id asperiores recusandae necessitatibus
+            nihil ipsa expedita voluptas vitae, architecto rem sed repudiandae nobis
+            quod odio animi quo molestias? Voluptate, possimus! Dicta tempore vero
+            repellat enim recusandae id tempora dolor voluptatem quas ea sit ullam
+            facere officia quod eius maxime sapiente, accusamus quibusdam, aperiam
+            dignissimos error possimus asperiores. Quibusdam veniam amet alias
+            distinctio laudantium esse culpa neque ex quam doloremque nam ea eius
+            reiciendis libero, delectus hic autem inventore velit id maiores
+            asperiores sunt eaque fuga! Odit minima velit obcaecati voluptatum iure
+            non ad cumque?
+        </p>
+
+        <!-- button  -->
+        <button class="btn btn-danger">Click me!</button>
+        <button class="btn btn-outline-danger">Click me!</button>
+        <button class="btn btn-info">Click me!</button>
+        <button class="btn btn-outline-info">Click me!</button>
+        <button class="btn btn-success">Click me!</button>
+        <button class="btn btn-warning">Click me!</button>
+        <button class="btn btn-primary">Click me!</button>
+        <button class="btn btn-secondary">Click me!</button>
+        <button class="btn btn-light btn-sm">Click me!</button>
+        <button class="btn btn-dark btn-lg">Click me!</button>
+        <button class="btn btn-link">Click me!</button>
+        <a href="#" class="btn btn-outline-dark">google me!</a>
+        <br /><br />
+
+        <!-- badge  -->
+        <button type="button" class="btn btn-outline-dark position-relative">
+            Followers
+            <span
+            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+            99+
+            <span class="visually-hidden">unread messages</span>
+            </span>
+        </button>
+        <br /><br />
+
+        <!-- alert -->
+        <div class="alert alert-danger" role="alert">
+            download failed please try again later.
+        </div>
+        <br />
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those
+            fields below.
+            <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+            ></button>
+        </div>
+        <br><br>
+        <h1>botton group</h1>
+        <div class="btn-group" >
+            <button class="btn btn-outline-primary">one</button>
+            <button class="btn btn-outline-primary">two</button>
+            <button class="btn btn-outline-primary">three</button>
+        </div>
+
+        <div></div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
